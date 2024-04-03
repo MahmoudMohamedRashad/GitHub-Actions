@@ -3,7 +3,7 @@ on:
     push:
         branches:
             - "main"
-jops:
+jobs:
     firist-work-flow-jop:
         name: firist jop
         runs-on: ubuntu-latest
