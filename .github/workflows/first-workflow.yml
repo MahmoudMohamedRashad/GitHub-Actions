@@ -8,7 +8,7 @@ jobs:
         name: firist jop
         runs-on: ubuntu-latest
         steps:
-            - name: run bash command
+            - name: run bash command.
               run: echo "firist work flow"
               shell: bash
 
