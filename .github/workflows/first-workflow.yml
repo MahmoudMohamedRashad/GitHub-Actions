@@ -1,0 +1,14 @@
+name: first work flow 
+on:
+    push:
+        branches:
+            - "master"
+jops:
+    firist-work-flow-jop:
+        name: firist jop
+        runs-on: ubuntu-latest
+        steps:
+            - name: run bash command
+              run: echo "firist work flow"
+              shell: bash
+
