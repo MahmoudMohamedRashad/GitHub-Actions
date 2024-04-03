@@ -2,7 +2,7 @@ name: first work flow
 on:
     push:
         branches:
-            - "master"
+            - "main"
 jops:
     firist-work-flow-jop:
         name: firist jop
