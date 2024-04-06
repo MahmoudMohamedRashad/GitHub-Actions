@@ -11,4 +11,13 @@ jobs:
             - name: run bash command.
               run: echo "firist work flow"
               shell: bash
+            - name: before Github actions.
+              run: ls
+              shell: bash
+            - name: use Github actions.
+              uses: actions/checkout@v4
+            - name: after Github actions.
+              run: ls
+              shell: bash
+
 
